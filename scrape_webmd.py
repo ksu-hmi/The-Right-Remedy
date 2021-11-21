@@ -3,6 +3,8 @@ from scrapy.selector import Selector
 from webmd.items import WebmdItem
 import urllib
 import re
+#sucessfuly debugged 6 problems. still trying to get pip install to work
+#finally managed to get this hooked up to github desktop, you should be able to see my changes now, nicole
 
 headers = {'User-Agent': 'Chrome/56.0.2924.87', 'enc_data': 'OXYIMo2UzzqFUzYszFv4lWP6aDP0r+h4AOC2fYVQIl8=', 'timestamp': 'Thu, 09 Feb 2017 02:11:34 GMT', 'client_id': '3454df96-c7a5-47bb-a74e-890fb3c30a0d'}
 
