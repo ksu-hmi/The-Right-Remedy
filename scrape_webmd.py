@@ -1,6 +1,6 @@
 from scrapy import Spider, Request
 from scrapy.selector import Selector
-from webmd.items import WebmdItem
+from webmd.items import WebmdItem #don't fully understand this part, come bck to
 import urllib
 import re
 #sucessfuly debugged 6 problems. still trying to get pip install to work
