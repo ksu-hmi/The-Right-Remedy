@@ -1,6 +1,6 @@
 from scrapy import Spider, Request
 from scrapy.selector import Selector
-from webmd.items import WebmdItem #don't fully understand this part, come bck to
+from webmd.items import WebmdItem #don't fully understand this part, come bck to #N: Talha, the import of the items are all the different categories/classes such as "name of drug", "interactions", "generic name", "brand name"
 import urllib
 import re
 #sucessfuly debugged 6 problems. still trying to get pip install to work
